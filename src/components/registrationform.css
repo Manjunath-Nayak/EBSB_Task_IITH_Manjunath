@@ -1,0 +1,74 @@
+/* Registration Form Container */
+.registration-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #4299e1, #38b2ac);
+}
+
+/* Form Styling */
+.registration-form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Form Title */
+.registration-form h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #2d3748;
+}
+
+/* Input and Textarea Styling */
+.registration-form input,
+.registration-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.registration-form input:focus,
+.registration-form textarea:focus {
+  border-color: #3182ce;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.3);
+}
+
+/* Button Styling */
+.registration-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(to right, #4299e1, #38b2ac);
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.registration-form button:hover {
+  background: linear-gradient(to right, #3182ce, #319795);
+}
+
+/* Form Input Placeholder Color */
+.registration-form input::placeholder,
+.registration-form textarea::placeholder {
+  color: #a0aec0;
+}
+
+/* Textarea Resizing */
+.registration-form textarea {
+  resize: none;
+}
